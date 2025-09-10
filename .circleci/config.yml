@@ -12,7 +12,7 @@ jobs:
 
   deploy:
      steps:
-       -run: echo "PrACTICAL DONE"
+       - run: echo "PrACTICAL DONE"
 
 workflows:
    build_and_test_deploy:
